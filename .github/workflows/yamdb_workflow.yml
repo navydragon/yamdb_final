@@ -68,9 +68,9 @@ jobs:
             username: ${{ secrets.USER }}
             key: ${{ secrets.SSH_KEY }}
             script: |
-              sudo docker compose stop
+              sudo docker-compose stop
               sudo docker system prune -f
-              sudo docker compose rm web
+              sudo docker-compose rm web
               sudo docker pull ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
               rm .env
               touch .env
