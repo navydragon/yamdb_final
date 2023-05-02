@@ -15,7 +15,7 @@ services:
       - ./.env
 
   web:
-    image: navydragons/apiyamdb:latest
+    image: navydragons/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
