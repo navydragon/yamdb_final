@@ -1,6 +1,8 @@
 # yamdb_final 
-yamdb_final 
+
 ![workflow bagde](https://github.com/navydragon/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+Сервер располагается по адресу [http://158.160.70.39] (http://158.160.70.39/)
 
 api_yamdb
 
